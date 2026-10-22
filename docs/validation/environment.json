@@ -1,0 +1,23 @@
+{
+  "python": "3.12.14",
+  "os": "Windows-11-10.0.26200-SP0",
+  "ram_gib": 31.115,
+  "torch": "2.8.0+cu128",
+  "cuda_runtime": "12.8",
+  "cuda_available": true,
+  "tf32": false,
+  "attention": "eager",
+  "sentence-transformers": "5.1.2",
+  "transformers": "4.57.1",
+  "numpy": "2.2.6",
+  "streamlit": "1.50.0",
+  "pypdf": "6.1.1",
+  "python-docx": "1.2.0",
+  "gpu": "NVIDIA GeForce RTX 4080 SUPER",
+  "vram_mib": 16375.5,
+  "capability": [
+    8,
+    9
+  ],
+  "nvidia_driver": "595.97"
+}

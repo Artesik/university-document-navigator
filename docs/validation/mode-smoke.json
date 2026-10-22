@@ -1,0 +1,22 @@
+[
+  {
+    "device": "cpu",
+    "precision": "fp32",
+    "weight_dtype": "torch.float32",
+    "shape": [
+      1,
+      384
+    ],
+    "finite": true
+  },
+  {
+    "device": "cuda",
+    "precision": "fp16",
+    "weight_dtype": "torch.float16",
+    "shape": [
+      1,
+      384
+    ],
+    "finite": true
+  }
+]

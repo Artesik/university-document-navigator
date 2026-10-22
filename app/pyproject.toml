@@ -1,0 +1,19 @@
+[project]
+name = "university-document-navigator"
+version = "2.0.0"
+description = "Local E5 document retrieval and reproducible GPU indexing measurements"
+requires-python = ">=3.12,<3.13"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-p no:cacheprovider --basetemp=../tmp/pytest"
+markers = ["real_model: opt-in local E5 CUDA integration checks"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B"]
+ignore = ["E501"]
