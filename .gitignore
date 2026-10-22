@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+app/data/
+app/models/
+tmp/
+output/
+submission/
+*.py[cod]
+.env
+.env.*
+materials/
+docs/chat-archive.md
+docs/chat-export.json

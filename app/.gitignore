@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Runtime data and downloaded ML models
+database/assistant.db
+database/assistant.db-*
+.cache/
+models/
+data/
+
+# Build results
+build/
+dist/
+*.spec.bak
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Codex working folders
+work/
+outputs/
